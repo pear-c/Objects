@@ -8,10 +8,6 @@ public class TicketSeller {
         this.ticketOffice = ticketOffice;
     }
 
-//    public TicketOffice getTicketOffice() {
-//        return ticketOffice;
-//    }
-
     public void sellTo(Audience audience) {
         // 초대장이 있으면 입장권으로 교환
         if(audience.getBag().hasInvitation()) {
